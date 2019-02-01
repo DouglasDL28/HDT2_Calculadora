@@ -20,16 +20,27 @@ public class Pila<String> implements iPila<String> {
 
     @Override
     public String peek() {
-        return data.get(data.size() - 1);
+        return data.get(0);
     }
 
     @Override
     public String pop() {
-        return data.remove(data.size() - 1);
+            return data.remove(0);
     }
 
     @Override
     public void push(String item) {
         data.add(item);
+    }
+
+    @Override
+    public java.lang.String toString() {
+
+        java.lang.String result = "";
+        for (String i: data) {
+            result = result + i;
+        }
+
+        return result;
     }
 }

@@ -7,7 +7,7 @@ public class Calculadora implements iCalculadora {
 
     @Override
     public double multiplicar(double a, double b) {
-        return a * b;
+        return (a * b);
     }
 
     @Override
