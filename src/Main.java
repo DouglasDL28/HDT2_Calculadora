@@ -16,8 +16,8 @@ public class Main {
         boolean wantsToContinue = true;
 
         Scanner input = new Scanner(System.in);
-        Calculadora calculadora = new Calculadora();
-        Pila<String> myPila = new Pila<>();
+        iCalculadora calculadora = new Calculadora();
+        iPila<String> myPila = new Pila<>();
 
         do {
             System.out.println(menu);
