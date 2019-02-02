@@ -1,7 +1,6 @@
 public class Calculadora implements iCalculadora {
 
-    @Override
-    public double dividir(double a, double b) {
+    public double dividir(double a) {
         return a/b;
     }
 

@@ -4,6 +4,11 @@ public class CalculadoraTest {
 
     @org.junit.Test
     public void dividir() {
+        Calculadora calculadora = new Calculadora();
+        Double a = 4.0;
+        Double b = 2.0;
+        assertEquals( 2.0, calculadora.dividir(a,b), 0.0);
+
     }
 
     @org.junit.Test
